@@ -44,7 +44,8 @@ modules:
       - gcc-c++
       - make
       - automake
-      - akmod-nvidia
+      - nvidia-kmod-common-3:580*
+      - akmod-nvidia-3:580*
       - xorg-x11-drv-nvidia
       - xorg-x11-drv-nvidia-libs
       - xorg-x11-drv-nvidia-cuda
