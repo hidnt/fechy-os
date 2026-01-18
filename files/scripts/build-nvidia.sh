@@ -13,6 +13,4 @@ if ! akmods --force --kernels "$KERNEL_VERSION" --rebuild; then
     exit 1
 fi
 
-rpm -qa | grep nvidia
-
 echo "Nvidia driver build completed"
